@@ -37,6 +37,12 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<useSystemClassLoader>true</useSystemClassLoader>
+					       <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>com.qmetry.automation.JUnitResultUploader</value>
+                        </property>
+                    </properties>
 				</configuration>
 			</plugin>
 			<plugin>

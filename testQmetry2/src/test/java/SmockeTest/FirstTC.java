@@ -6,9 +6,10 @@ import org.junit.Test;
 
 public class FirstTC {
 
+	@QmetryTestCase(TC_ID="9")
 	@Test
 	public void testInvalid() {
-		assertEquals(3,2);
+		assertEquals(2,2);
 	}
 
 }
